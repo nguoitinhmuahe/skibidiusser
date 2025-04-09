@@ -75,7 +75,6 @@ class App(ctk.CTk):
 
         self.load_items()
 
-        # Tabs
         self.tab_view = ctk.CTkTabview(self)
         self.tab_view.pack(fill="both", expand=True, padx=10, pady=10)
 
